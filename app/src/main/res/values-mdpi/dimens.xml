@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="map_height">150dp</dimen>
+    <dimen name="date_time_size">18sp</dimen>
+    <dimen name="moisture_magnitude_size">140dp</dimen>
+    <dimen name="lbl_value_size">15sp</dimen>
+
+    <dimen name="edit_text_width_login">220dp</dimen>
+    <dimen name="edit_text_height_login">40dp</dimen>
+    <dimen name="rel_login_info_margin_top">160dp</dimen>
+    <dimen name="login_btn_padding">10dp</dimen>
+    <dimen name="rel_newuser_forgotpassword_txt_size">13sp</dimen>
+    <dimen name="login_btn_txt_size">13sp</dimen>
+    <dimen name="gauge_level_size">100dp</dimen>
+
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="map_height">400dp</dimen>
+    <dimen name="date_time_size">18sp</dimen>
+    <dimen name="moisture_magnitude_size">190dp</dimen>
+    <dimen name="lbl_value_size">20sp</dimen>
+</resources>

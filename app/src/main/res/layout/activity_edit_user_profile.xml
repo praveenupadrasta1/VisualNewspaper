@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.praveenupadrasta.news.UserProfile.EditUserProfileActivity">
+
+    <TextView
+        android:id="@+id/lbl_error_msg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="18dp"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="@dimen/rel_newuser_forgotpassword_txt_size"
+        android:text="TextView"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_phone_num" />
+
+    <EditText
+        android:id="@+id/txt_last_name"
+        android:layout_width="@dimen/edit_text_width_login"
+        android:layout_height="@dimen/edit_text_height_login"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/edittext_modified_states"
+        android:ems="10"
+        android:hint="Last Name"
+        android:inputType="textPersonName"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_first_name"
+        tools:layout_editor_absoluteX="71dp" />
+
+    <EditText
+        android:id="@+id/txt_first_name"
+        android:layout_width="@dimen/edit_text_width_login"
+        android:layout_height="@dimen/edit_text_height_login"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="36dp"
+        android:background="@drawable/edittext_modified_states"
+        android:ems="10"
+        android:hint="First Name"
+        android:inputType="textPersonName"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Spinner
+        style="@android:style/Widget.Holo.Light.Spinner"
+        android:id="@+id/spinner_location"
+        android:layout_width="150dp"
+        android:layout_height="35dp"
+        app:layout_constraintLeft_toRightOf="@+id/lbl_location"
+        android:layout_marginLeft="-4dp"
+        android:layout_marginTop="27dp"
+        app:layout_constraintTop_toBottomOf="@+id/txt_last_name"
+        />
+
+    <EditText
+        android:id="@+id/txt_address"
+        android:layout_width="@dimen/edit_text_width_login"
+        android:layout_height="@dimen/edit_text_height_login"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:background="@drawable/edittext_modified_states"
+        android:ems="10"
+        android:hint="Address"
+        android:inputType="textPostalAddress"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="12dp"
+        app:layout_constraintTop_toBottomOf="@+id/spinner_location" />
+
+    <EditText
+        android:id="@+id/txt_phone_num"
+        android:layout_width="@dimen/edit_text_width_login"
+        android:layout_height="@dimen/edit_text_height_login"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="19dp"
+        android:background="@drawable/edittext_modified_states"
+        android:ems="10"
+        android:hint="Phone"
+        android:inputType="phone"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_address"
+        tools:layout_editor_absoluteX="81dp" />
+
+    <TextView
+        android:id="@+id/btn_edit_profile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Edit Profile"
+        android:clickable="true"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:background="@drawable/button_background_states"
+        android:padding="@dimen/login_btn_padding"
+        android:gravity="center"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:textSize="@dimen/login_btn_txt_size"
+        android:layout_marginTop="20dp"
+        app:layout_constraintTop_toBottomOf="@+id/lbl_error_msg" />
+
+    <TextView
+        android:id="@+id/lbl_location"
+        android:layout_width="82dp"
+        android:layout_height="38dp"
+        android:text="Location"
+        android:textSize="@dimen/login_btn_txt_size"
+        android:layout_marginTop="28dp"
+        app:layout_constraintTop_toBottomOf="@+id/txt_last_name"
+        android:layout_marginLeft="35dp"
+        app:layout_constraintLeft_toLeftOf="parent" />
+</android.support.constraint.ConstraintLayout>

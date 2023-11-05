@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">NEWS</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="Search">Search</string>
+    <string name="Location">Location</string>
+    <string name="title_activity_splash_screen">SplashScreenActivity</string>
+    <string name="title_activity_landslide_detection">LandslideDetectionActivity</string>
+    <string name="date">Date: </string>
+    <string name="time">Time: </string>
+    <string name="mositure_level">Moisture Level</string>
+    <string name="accelormeter_magnitude">Magnitude</string>
+    <string name="rainfall">Rainfall:</string>
+    <string name="message">Message:</string>
+    <string name="title_section1">Detection</string>
+    <string name="title_section2">History</string>
+    <string name="title_activity_login">Login</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="login">Login</string>
+    <string name="register_user">Register new user</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="register">Register</string>
+    <string name="reset_password">Reset Password</string>
+    <string name="title_edit_profile">Edit Profile</string>
+</resources>
